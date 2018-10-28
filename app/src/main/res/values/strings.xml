@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FootballGeek</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="logout">Logout</string>
+    <string name="main_menu_write_new_blog">Write New Blog</string>
+    <string name="main_menu_write_for_us">Write For Us</string>
+    <string name="main_menu_About_us">About Us</string>
+    <string name="new_blog_hint">Add Description</string>
+
+
+</resources>

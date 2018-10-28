@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- font size -->
+    <dimen name="font_base_16">16sp</dimen>
+    <dimen name="font_secondary_24">24sp</dimen>
+    <dimen name="font_toolbar_special_30">30sp</dimen>
+    <dimen name="font_heading2_32">32sp</dimen>
+    <dimen name="font_heading_40">40sp</dimen>
+    <dimen name="font_heading_big_boss_48">48sp</dimen>
+
+    <!-- margin size -->
+    <dimen name="base_style_36">36dp</dimen>
+    <dimen name="secondary_base_style_24">24dp</dimen>
+    <dimen name="ternary_base_style_16">16dp</dimen>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/main_menu_account_settings"
+        android:title="@string/account_settings" />
+
+    <item
+        android:id="@+id/main_menu_write_new_blog"
+        android:title="@string/main_menu_write_new_blog" />
+    <item
+        android:id="@+id/main_menu_write_for_us"
+        android:title="@string/main_menu_write_for_us" />
+    <item
+        android:id="@+id/main_menu_About_us"
+        android:title="@string/main_menu_About_us" />
+    <item
+        android:id="@+id/main_menu_logout"
+        android:title="@string/logout" />
+</menu>

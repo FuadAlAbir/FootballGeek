@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "770430279562",
+    "firebase_url": "https://footballgeek-de961.firebaseio.com",
+    "project_id": "footballgeek-de961",
+    "storage_bucket": "footballgeek-de961.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770430279562:android:7be8edce3a31fb1b",
+        "android_client_info": {
+          "package_name": "com.geekstudios.footballgeekblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770430279562-41efgk9gt6espvvha99h3tke0k9oqmbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geekstudios.footballgeekblog",
+            "certificate_hash": "cac025e4a1a19c250f5850de07b1679c750d55d3"
+          }
+        },
+        {
+          "client_id": "770430279562-tqkguag6mjlresabgllovd2n5m33j6ev.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "770430279562-tqkguag6mjlresabgllovd2n5m33j6ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4ahlBX9c0_TTJLnFYzPR-QOqK8BioxUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770430279562-tqkguag6mjlresabgllovd2n5m33j6ev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

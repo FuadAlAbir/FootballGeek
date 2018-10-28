@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/open_toolbar_5036"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/football_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Football"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/font_toolbar_special_30" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/football_text_view"
+                android:text="Geek"
+                android:textColor="@color/colorSecondary"
+                android:textSize="@dimen/font_toolbar_special_30"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.Toolbar>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8962788107836417/8238210225" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/oblog_feature_image_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/image_placeholder"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:id="@+id/oblog_heading_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:padding="@dimen/ternary_base_style_16"
+                    android:gravity="center"
+                    android:textSize="@dimen/font_secondary_24"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/oblog_feature_image_view"
+                    tools:text="Heading" />
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/oblog_user_image"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/profile_placeholder"
+                        app:layout_constraintStart_toStartOf="parent"
+ />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/oblog_clap_counter_image"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginRight="32dp"
+                        android:src="@drawable/ic_clap_cl"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/clap_counter" />
+
+                    <TextView
+                        android:id="@+id/clap_counter"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginRight="32dp"
+                        android:gravity="center"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        tools:text="0" />
+
+                    <TextView
+                        android:id="@+id/oblog_username_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="26dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:text="Contributing Writer"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/oblog_user_image"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </android.support.constraint.ConstraintLayout>
+                <TextView
+                    android:id="@+id/oblog_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis faucibus erat, id gravida arcu. Integer et nibh mauris. Phasellus vitae varius nisl. Ut tincidunt viverra purus. Phasellus feugiat sem in commodo hendrerit. In hac habitasse platea dictumst. Vestibulum iaculis sed elit sit amet placerat. Vivamus cursus metus risus. Nam egestas placerat malesuada. Aliquam sollicitudin dolor nec nunc faucibus, at venenatis quam rhoncus. Sed vitae hendrerit odio. Duis elit urna, congue eget diam sed, volutpat dictum sem. Duis id ante enim. Donec nec auctor nibh, id pharetra nisi. Suspendisse potenti. Pellentesque hendrerit non ex non consequat.
+
+In eu mi ante. Phasellus luctus maximus mauris, vitae dictum tortor. Donec dapibus commodo est, vel pretium massa lobortis nec. Maecenas in tempor nisi. Donec augue purus, consectetur nec tincidunt vel, hendrerit rutrum velit. Mauris ut laoreet lorem, id pulvinar justo. Sed luctus mi viverra dui ullamcorper, sit amet semper justo laoreet. Mauris dapibus, nulla eu eleifend efficitur, quam velit elementum erat, euismod efficitur ex dolor sit amet odio. Sed vitae tempor sem. Curabitur commodo, urna quis elementum tincidunt, nibh magna porttitor augue, vel sagittis eros lorem sit amet velit. Sed euismod erat et diam lobortis rhoncus. Sed aliquet sit amet massa nec iaculis. Nullam pulvinar purus elit, sed ullamcorper neque dictum non. Donec porta nisi metus, convallis tincidunt nunc posuer mosque."
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/oblog_user_image" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/clap_floating_btn"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/secondary_base_style_24"
+        android:alpha=".8"
+        android:clickable="true"
+        app:backgroundTint="@android:color/white"
+        app:srcCompat="@drawable/ic_clap_bw" />
+</RelativeLayout>
